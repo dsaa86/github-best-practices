@@ -1,6 +1,7 @@
 import unittest
 
-from MoreMaths import calculate_mean, calculate_median, calculate_mode
+from FirstNewFeature.MoreMaths import (calculate_mean, calculate_median,
+                                       calculate_mode)
 
 
 class TestMoreMaths(unittest.TestCase):
