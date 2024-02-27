@@ -1,6 +1,6 @@
 import unittest
 
-from FirstNewFeature import (addTwoNumbers, cubeRoot, divideTwoNumbers,
+from FirstNewFeature.FirstNewFeature import (addTwoNumbers, cubeRoot, divideTwoNumbers,
                              multiplyTwoNumbers, powerOfTwo, squareRoot,
                              subtractTwoNumbers)
 
