@@ -46,7 +46,7 @@ On your local machine, go to Terminal / PowerShell and ensure that you are still
 
 Press enter. The repo should be cloned to your local machine.#
 
-If you are asked for authentication tokens, read [this guide]().
+If you are asked for authentication tokens, read [this guide](https://github.com/dsaa86/github-best-practices/blob/main/CreatingAuthenticationTokens.md).
 
 Type `ls -l` to view the files that you have just cloned to your system.
 
