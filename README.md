@@ -1,8 +1,12 @@
 # Github Best Practices
 
+## TL;DR
+
+There is no tl;dr...make sure that you read the file, please.
+
 ## Purpose
 
-As a team of developers, it is crucial that we are able to track the progression of a software solution from conception to delivery. Git as a technology, which is 8seperate to Github, allows us to perform version control on a repository. Github is merely a service that allows us to move a repository to the Cloud to allow for easier distributed development.
+As a team of developers, it is crucial that we are able to track the progression of a software solution from conception to delivery. Git as a technology, which is seperate to Github, allows us to perform version control on a repository. Github is merely a service that allows us to move a repository to the Cloud to allow for easier distributed development.
 
 This document will guide you through the processes for best-practice version control of software development for small teams. Please note that there are multiple ways of implementing a version control policy, however, this method is a proven way of enabling small teams to track software versions without adding too much overhead to any individual person.
 
@@ -14,7 +18,11 @@ Unless otherwise stated, all steps are on your local machine.
 
 1. Using Terminal / PowerShell, navigate to the directory where your development projects are saved.
 
-2. Create a new folder for your project (`mkdir <insert folder name>`).
+2. Create a new folder for your project.
+
+    ```
+    mkdir <insert folder name>
+    ```
 
 3. `cd` in to the folder and then type `git init`. You should see some output stating that an empty repository has been created.
 
@@ -29,6 +37,8 @@ Spend some time considering this name - we will be referring to it for a long ti
 ### 3. Clone the repo to your local machine
 
 In Github, ensure that you have opened the repo page. In the 'code' tab of the repo, you should see a green button that says 'code'.
+
+-   [Code button](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubRepoCodeButton.png)
 
 Select the button and ensure that 'HTTPS' is selected, then copy the URL that is displayed in the drop-down option box.
 
@@ -141,7 +151,7 @@ Once you have managed all of the steps above, the push process is actually fairl
 > git push -u origin <name of your branch>
 ```
 
-# That's it ... almost ...
+## That's it ... almost ...
 
 OK, so you have created a local repo; cloned a remote repo in to it; created a new branch for your feature; developed your new feature; tested your new feature; and then pushed your new feature up to the remote.
 
@@ -151,17 +161,30 @@ We need to integrate your new feature in to the `main` branch.
 
 ### 9. Creating a pull request (PR)
 
-On Github, open the repository and then click "Pull Request" in the top menu,
+On Github, open the repository and then click "Pull Request" in the top menu.
 
-Create a new pull request, ensuring that your new branch is set as the 'source' and the `main` branch is the 'destination'.
+-   [Top menu bar](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubRepoMenuBar.png)
+
+Create a new pull request, ensuring that your new branch is set as the 'source' and the `main` branch is the 'destination', this should be automatically selected.
+
+-   [Create pull request button](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubNewPullRequestButton.png)
+-   [Create pull request popup](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubNewPullRequestPopup.png)
+-   [Branch selection](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubNewPullRequestBranchSelection.png)
 
 In any normal situation, there should be no need for you to issue a pull request that merges to any branch other than `main`.
 
-Add details to the PR form that will allow the code to be reviewed prior to merging the changes in to `main`.
+Add details to the PR form that will allow the code to be reviewed prior to merging the changes in to `main`. In particular, add in the details of your code reviewer and anybody else who should be aware of this pull request.
+
+-   [Pull Request change form](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubNewPullRequestDialog.png)
+-   [Pull request reviewers](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GithubNewPullRequestAssignees.png)
 
 **_Your code will automatically be tested when the pull request is submitted. If you do not have 100% passing tests, your pull request will be rejected._**
 
 Once your tests are passing, the request will be passed to the reviewer. At this stage there may be some back and forth as you resolve queries and update code to satisfy the code review.
+
+-   [Tests being performed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestPerformingTests.png)
+-   [Tests failed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTests.png)
+-   [Test failure report](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTestsDetails.png)
 
 Once any changes have been made and your code is ready to go, all of your changes will be merged with the `main` branch.
 
