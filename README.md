@@ -185,8 +185,22 @@ Once your tests are passing, the request will be passed to the reviewer. At this
 -   [Tests being performed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestPerformingTests.png)
 -   [Tests failed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTests.png)
 -   [Test failure report](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTestsDetails.png)
+-   [Tests passing](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestPassingTests.png)
 
 Once any changes have been made and your code is ready to go, all of your changes will be merged with the `main` branch.
+
+## If you wish to visualise the branches and commits
+
+1. Open the Source Control extension. This should be installed by default.
+
+    - [Source Control extension](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/OpenSourceControl.png)
+
+2. Select the 'Git Graph' button from the top of the extension. In this image, it is the right-most button.
+
+    - [Git Graph Button](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/SelectGitGraph.png)
+
+3. View the git graph. This shows the branch history, user history, and commit history for the entire repo. You can filter this view in numerous ways to fit your needs.
+    - [Git Graph](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/GitGraph.png)
 
 ## You're done!
 
