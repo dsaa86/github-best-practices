@@ -79,7 +79,7 @@ Make sure that you choose a branch name relating to the feature that you are dev
 
 Every time you make a change to your code, you should commit this change to your repo. I can't stress this enough!
 
-If you are unsure what commits and the structure of a repo looks like, read [this guide]()
+If you are unsure what commits and the structure of a repo looks like, read [this guide](https://www.atlassian.com/git/tutorials/saving-changes/git-commit#:~:text=Commits%20are%20the%20core%20building,at%20that%20point%20in%20time.)
 
 You should make a commit when you have implemented a significant function, or when you have completed a specific requirement, or when you have written the tests that test a specific requirement or feature.
 
@@ -105,7 +105,7 @@ Small commits regular and often allow you to roll back any changes that later br
 
 Your commit message should be a short summary of what changes have been made since the last commit.
 
-For best practice on writing commit messages, see [this guide]()
+For best practice on writing commit messages, see [this guide](https://www.linkedin.com/pulse/7-best-practices-writing-good-git-commitmessages-kirinyet-brian)
 
 ### 7. Pull and merge remote changes
 
