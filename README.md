@@ -52,7 +52,7 @@ Type `ls -l` to view the files that you have just cloned to your system.
 
 ### 4. Understanding branches
 
-If you are unsure of what Git allows us to do and what a branch is, then read [this guide]()
+If you are unsure of what Git allows us to do and what a branch is, then read [this guide](https://github.com/dsaa86/github-best-practices/blob/main/UnderstandingBranches.md).
 
 ### 5. Create a branch for your new feature
 
