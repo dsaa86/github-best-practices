@@ -185,6 +185,7 @@ Once your tests are passing, the request will be passed to the reviewer. At this
 -   [Tests being performed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestPerformingTests.png)
 -   [Tests failed](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTests.png)
 -   [Test failure report](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestFailedTestsDetails.png)
+-   [Tests passing](https://github.com/dsaa86/github-best-practices/blob/main/resources/images/PullRequestPassingTests.png)
 
 Once any changes have been made and your code is ready to go, all of your changes will be merged with the `main` branch.
 
